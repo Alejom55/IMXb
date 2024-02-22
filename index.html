@@ -1,171 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IMXb</title>
     <link rel="stylesheet" href="style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div>
-        <header>
-            <nav class="nav-container">
-                <p class="site-name oswald-font">IMXb</p>
-                <div class="link-row">
-                    <a href="#">Peliculas</a>
-                    <a href="#">Programas TV</a>
-                    <a href="#">Celebrities</a>
-                    <a href="#">Box Office</a>
-                    <a href="#">Proximos estrenos</a>
-                    <a href="#">Cartelera</a>
-                    <a href="#">Comunidad</a>
-                </div>
-                <div class="nav-search">
-                    <input type="text" placeholder="Buscar peliculas, programas TV, celebridades" />
-                    <button>Buscar</button>
-                </div>
-            </nav>
-        </header>
+      <header>
+        <nav class="nav-container">
+          <p class="site-name oswald-font">IMXb</p>
+          <div class="link-row">
+            <a href="#">Peliculas</a>
+            <a href="#">Programas TV</a>
+            <a href="#">Celebrities</a>
+            <a href="#">Box Office</a>
+            <a href="#">Proximos estrenos</a>
+            <a href="#">Cartelera</a>
+            <a href="#">Comunidad</a>
+          </div>
+          <div class="nav-search">
+            <input
+              type="text"
+              placeholder="Buscar peliculas, programas TV, celebridades"
+            />
+            <button>Buscar</button>
+          </div>
+        </nav>
+      </header>
 
-        <main>
-            <p class="main-title">Destacados del mes</p>
-            <!-- <img src="./sources/svg/watching_list.svg"> -->
-            <div class="movies-row">
-                <div class="movie-container">
-                    <div class="movie-img">
-                        <img src="./sources/images/TWD.jpg" />
-                    </div>
-                    <div class="movie-info">
-                        <span class="movie-title">The Walking Dead: The Ones Who Live</span>
-                        <span class="movie-detail">Categoria: <a href="#" class="ext-link">Serie de TV</a></span>
-                        <span class="movie-detail">Calificacion: <span class="movie-calification">8.1</span></span>
-                        <span class="movie-detail">Año: <a href="#" class="ext-link">2004</a></span>
-                    </div>
-                </div>
-                <div class="movie-container">
-                    <div class="movie-img">
-                        <img src="./sources/images/avatar.jpg" />
-                    </div>
-                    <div class="movie-info">
-                        <span class="movie-title">The last Airbender</span>
-                        <span class="movie-detail">Categoria:
-                            <a href="#" class="ext-link">Serie de TV</a></span>
-                        <span class="movie-detail">Calificacion: <span class="movie-calification">5.1</span></span>
-                        <span class="movie-detail">Año: <a href="#" class="ext-link">2024</a></span>
-                    </div>
-                </div>
-                <div class="movie-container">
-                    <div class="movie-img">
-                        <img src="./sources/images/madameweb.jpg" />
-                    </div>
-                    <div class="movie-info">
-                        <span class="movie-title">Madame Web</span>
-                        <span class="movie-detail">Categoria: <a href="#" class="ext-link">Película</a></span>
-                        <span class="movie-detail">Calificacion: <span class="movie-calification">3.8</span></span>
-                        <span class="movie-detail">Año: <a href="#" class="ext-link">2024</a></span>
-                    </div>
-                </div>
-                <div class="movie-container">
-                    <div class="movie-img">
-                        <img src="./sources/images/tracker.jpg" />
-                    </div>
-                    <div class="movie-info">
-                        <span class="movie-title">Tracker</span>
-                        <span class="movie-detail">Categoria: <a href="#" class="ext-link">Serie de TV</a></span>
-                        <span class="movie-detail">Calificacion: <span class="movie-calification">6.6</span></span>
-                        <span class="movie-detail">Año: <a href="#" class="ext-link">2024</a></span>
-                    </div>
-                </div>
-                <div class="movie-container">
-                    <div class="movie-img">
-                        <img src="./sources/images/halo.jfif" />
-                    </div>
-                    <div class="movie-info">
-                        <span class="movie-title">Halo</span>
-                        <span class="movie-detail">Categoria: <a href="#" class="ext-link">Serie de TV</a></span>
-                        <span class="movie-detail">Calificacion: <span class="movie-calification">7.2</span></span>
-                        <span class="movie-detail">Año: <a href="#" class="ext-link">2022</a></span>
-                    </div>
-                </div>
+      <main>
+        <p class="main-title">Destacados del mes</p>
+        <div class="movies-row">
+          <div class="movie-container">
+            <div class="movie-img">
+              <img src="./sources/images/TWD.jpg" class="poster" />
+              <img
+                src="./sources/svg/watching_list.svg"
+                class="overlay-image bookmark"
+              />
+              <img src="./sources/svg/cross.svg" class="overlay-image cross" />
             </div>
-        </main>
-        <section>
-            <div>
-
-                <span class="section-title">Peliculas más taquilleras</span>
+            <div class="movie-info">
+              <span class="movie-title"
+                >The Walking Dead: The Ones Who Live</span
+              >
+              <span class="movie-detail"
+                >Categoria: <a href="#" class="ext-link">Serie de TV</a></span
+              >
+              <span class="movie-detail"
+                >Calificacion: <span class="movie-calification">8.1</span></span
+              >
+              <span class="movie-detail"
+                >Año: <a href="#" class="ext-link">2024</a></span
+              >
             </div>
-            <div class="boxes-offices">
-                <div class="movie-office">
-                    <a href="#">The Beekeeper</a>
-                    <div class="movie-office-info">
-                        <span>1</span>
-                        <span>Total: $143,681,846</span>
-                    </div>
-                </div>
-                <div class="movie-office">
-                    <a href="#">The Beekeeper</a>
-                    <div class="movie-office-info">
-                        <span>1</span>
-                        <span>Total: $143,681,846</span>
-                    </div>
-                </div>
-                <div class="movie-office">
-                    <a href="#">The Beekeeper</a>
-                    <div class="movie-office-info">
-                        <span>1</span>
-                        <span>Total: $143,681,846</span>
-                    </div>
-                </div>
-                <div class="movie-office">
-                    <a href="#">The Beekeeper</a>
-                    <div class="movie-office-info">
-                        <span>1</span>
-                        <span>Total: $143,681,846</span>
-                    </div>
-                </div>
-                <div class="movie-office">
-                    <a href="#">The Beekeeper</a>
-                    <div class="movie-office-info">
-                        <span>1</span>
-                        <span>Total: $143,681,846</span>
-                    </div>
-                </div>
-                <div class="movie-office">
-                    <a href="#">The Beekeeper</a>
-                    <div class="movie-office-info">
-                        <span>1</span>
-                        <span>Total: $143,681,846</span>
-                    </div>
-                </div>
-                <div class="movie-office">
-                    <a href="#">The Beekeeper</a>
-                    <div class="movie-office-info">
-                        <span>1</span>
-                        <span>Total: $143,681,846</span>
-                    </div>
-                </div>
-                <div class="movie-office">
-                    <a href="#">The Beekeeper</a>
-                    <div class="movie-office-info">
-                        <span>1</span>
-                        <span>Total: $143,681,846</span>
-                    </div>
-                </div>
-                <div class="movie-office">
-                    <a href="#">The Beekeeper</a>
-                    <div class="movie-office-info">
-                        <span>1</span>
-                        <span>Total: $143,681,846</span>
-                    </div>
-                </div>
-
+          </div>
+          <div class="movie-container">
+            <div class="movie-img">
+              <img src="./sources/images/avatar.jpg" class="poster" />
+              <img
+                src="./sources/svg/watching_list.svg"
+                class="overlay-image bookmark"
+              />
+              <img src="./sources/svg/cross.svg" class="overlay-image cross" />
             </div>
-        </section>
-        <footer></footer>
+            <div class="movie-info">
+              <span class="movie-title">The last Airbender</span>
+              <span class="movie-detail"
+                >Categoria: <a href="#" class="ext-link">Serie de TV</a></span
+              >
+              <span class="movie-detail"
+                >Calificacion: <span class="movie-calification">5.1</span></span
+              >
+              <span class="movie-detail"
+                >Año: <a href="#" class="ext-link">2024</a></span
+              >
+            </div>
+          </div>
+          <div class="movie-container">
+            <div class="movie-img">
+              <img src="./sources/images/madameweb.jpg" class="poster" />
+              <img
+                src="./sources/svg/watching_list.svg"
+                class="overlay-image bookmark"
+              />
+              <img src="./sources/svg/cross.svg" class="overlay-image cross" />
+            </div>
+            <div class="movie-info">
+              <span class="movie-title">Madame Web</span>
+              <span class="movie-detail"
+                >Categoria: <a href="#" class="ext-link">Película</a></span
+              >
+              <span class="movie-detail"
+                >Calificacion: <span class="movie-calification">3.8</span></span
+              >
+              <span class="movie-detail"
+                >Año: <a href="#" class="ext-link">2024</a></span
+              >
+            </div>
+          </div>
+          <div class="movie-container">
+            <div class="movie-img">
+              <img src="./sources/images/tracker.jpg" class="poster" />
+              <img
+                src="./sources/svg/watching_list.svg"
+                class="overlay-image bookmark"
+              />
+              <img src="./sources/svg/cross.svg" class="overlay-image cross" />
+            </div>
+            <div class="movie-info">
+              <span class="movie-title">Tracker</span>
+              <span class="movie-detail"
+                >Categoria: <a href="#" class="ext-link">Serie de TV</a></span
+              >
+              <span class="movie-detail"
+                >Calificacion: <span class="movie-calification">6.6</span></span
+              >
+              <span class="movie-detail"
+                >Año: <a href="#" class="ext-link">2024</a></span
+              >
+            </div>
+          </div>
+          <div class="movie-container">
+            <div class="movie-img">
+              <img src="./sources/images/halo.jfif" class="poster" />
+              <img
+                src="./sources/svg/watching_list.svg"
+                class="overlay-image bookmark"
+              />
+              <img src="./sources/svg/cross.svg" class="overlay-image cross" />
+            </div>
+            <div class="movie-info">
+              <span class="movie-title">Halo</span>
+              <span class="movie-detail"
+                >Categoria: <a href="#" class="ext-link">Serie de TV</a></span
+              >
+              <span class="movie-detail"
+                >Calificacion: <span class="movie-calification">7.2</span></span
+              >
+              <span class="movie-detail"
+                >Año: <a href="#" class="ext-link">2022</a></span
+              >
+            </div>
+          </div>
+        </div>
+      </main>
+      <section>
+        <div>
+          <span class="section-title">Peliculas Más Taquilleras</span>
+        </div>
+        <div class="boxes-offices">
+          <div class="movie-office">
+            <a href="#">The Beekeeper</a>
+            <div class="movie-office-info">
+              <span>1</span>
+              <span>Total: $143,681,846</span>
+            </div>
+          </div>
+          <div class="movie-office">
+            <a href="#">Mean Girls</a>
+            <div class="movie-office-info">
+              <span>2</span>
+              <span>Total: $143,681,846</span>
+            </div>
+          </div>
+          <div class="movie-office">
+            <a href="#">Bob Marley: One Love</a>
+            <div class="movie-office-info">
+              <span>3</span>
+              <span>Total: $143,681,846</span>
+            </div>
+          </div>
+          <div class="movie-office">
+            <a href="#">Argylle</a>
+            <div class="movie-office-info">
+              <span>4</span>
+              <span>Total: $143,681,846</span>
+            </div>
+          </div>
+          <div class="movie-office">
+            <a href="#">Madame Web</a>
+            <div class="movie-office-info">
+              <span>5</span>
+              <span>Total: $143,681,846</span>
+            </div>
+          </div>
+          <div class="movie-office">
+            <a href="#">Night Swim</a>
+            <div class="movie-office-info">
+              <span>6</span>
+              <span>Total: $143,681,846</span>
+            </div>
+          </div>
+          <div class="movie-office">
+            <a href="#">Mobile Suit Gundam SEED Freedom</a>
+            <div class="movie-office-info">
+              <span>7</span>
+              <span>Total: $143,681,846</span>
+            </div>
+          </div>
+          <div class="movie-office">
+            <a href="#">Golden Kamuy</a>
+            <div class="movie-office-info">
+              <span>8</span>
+              <span>Total: $143,681,846</span>
+            </div>
+          </div>
+          <div class="movie-office">
+            <a href="#">Alienoid: The Return to the Future </a>
+            <div class="movie-office-info">
+              <span>9</span>
+              <span>Total: $143,681,846</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p>&copy; 2024 IMXb. Todos los derechos reservados.</p>
+      </footer>
     </div>
-</body>
-
+  </body>
 </html>

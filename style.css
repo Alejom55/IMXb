@@ -1,47 +1,97 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
 
 }
-header{
+
+header {
     display: flex;
     flex-direction: column;
     background-color: #121212;
-    padding:1% 5%;
+    padding: 1% 5%;
 }
-main{
+
+main {
     background-color: #121212;
     display: flex;
     flex-direction: column;
     padding-left: 5%;
 }
-header a{
+
+header a {
     color: white;
     text-decoration: none;
 }
+
 .oswald-font {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
-.site-name{
+.site-name {
     font-size: 2em;
     color: #ffe600;
     margin: 0;
     padding: 0;
 }
-.movies-row{
+
+.movies-row {
     display: flex;
-    
+
 }
-.movie-info{
+
+.movie-info {
     display: flex;
     flex-direction: column;
 }
-.movie-img img{
+
+.movie-img img {
     width: 213px;
     height: 316px;
+}
+
+section {
+    background-color: lightgrey;
+    /* display: flex; */
+}
+
+.section-title {
+    color: #ffe600;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.boxes-offices {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.movie-office {
+    background-color: white;
+    width: 300px;
+    padding: 5px;
+    margin: 5px 10px;
+
+    /* height: 50px; */
+
+}
+.movie-office a {
+    padding-bottom: 50px;
+}
+.movie-office-info {
+    background-color: lightgray;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px 5px 25px;
+
 }
